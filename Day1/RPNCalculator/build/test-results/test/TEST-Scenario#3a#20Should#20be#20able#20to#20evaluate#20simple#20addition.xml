@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Should be able to evaluate simple addition" tests="4" skipped="3" failures="0" errors="0" timestamp="2019-01-22T09:01:56" hostname="centos15" time="0.004">
+  <properties/>
+  <testcase name="Given the input is &quot;10 15 +&quot;" classname="Scenario: Should be able to evaluate simple addition" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I invoke evaluate method" classname="Scenario: Should be able to evaluate simple addition" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I expect &quot;25.0&quot; as the result" classname="Scenario: Should be able to evaluate simple addition" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: Should be able to evaluate simple addition" time="0.078"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
