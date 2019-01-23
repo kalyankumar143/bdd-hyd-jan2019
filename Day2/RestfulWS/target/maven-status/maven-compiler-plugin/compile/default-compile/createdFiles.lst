@@ -1,0 +1,4 @@
+org/tektutor/Training.class
+org/tektutor/TrainingController.class
+org/tektutor/TrainingService.class
+org/tektutor/DatabaseConnectivity.class
