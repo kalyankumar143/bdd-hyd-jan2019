@@ -1,0 +1,82 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< org.tektutor:tektutor-partialmock-demo >---------------
+[INFO] Building tektutor-partialmock-demo 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tektutor-partialmock-demo ---
+[INFO] Deleting /home/jegan/Training/bdd-hyd-jan2019/Day3/PartialMockingDemo/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tektutor-partialmock-demo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/jegan/Training/bdd-hyd-jan2019/Day3/PartialMockingDemo/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tektutor-partialmock-demo ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/jegan/Training/bdd-hyd-jan2019/Day3/PartialMockingDemo/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tektutor-partialmock-demo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/jegan/Training/bdd-hyd-jan2019/Day3/PartialMockingDemo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tektutor-partialmock-demo ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /home/jegan/Training/bdd-hyd-jan2019/Day3/PartialMockingDemo/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tektutor-partialmock-demo ---
+[INFO] Surefire report directory: /home/jegan/Training/bdd-hyd-jan2019/Day3/PartialMockingDemo/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.tektutor.TestRunner
+
+1 Scenarios (1 undefined)
+4 Steps (4 undefined)
+0m0.000s
+
+
+You can implement missing steps with the snippets below:
+
+@Given("^the accountNo is \"(.*?)\"$")
+public void the_accountNo_is(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given("^the current balance is INR \"(.*?)\"$")
+public void the_current_balance_is_INR(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^I deposit INR \"(.*?)\"$")
+public void i_deposit_INR(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^I expect the current balance as INR \"(.*?)\"$")
+public void i_expect_the_current_balance_as_INR(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.32 sec
+Running org.tektutor.SavingsAccountTest
+Original deposit method invoked ...
+Updated balance in DB
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 5
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.974 s
+[INFO] Finished at: 2019-01-24T12:21:35+05:30
+[INFO] ------------------------------------------------------------------------

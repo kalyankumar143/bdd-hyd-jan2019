@@ -1,0 +1,82 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< org.tektutor:tektutor-getbalance-ws >-----------------
+[INFO] Building tektutor-getbalance-ws 1.0.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tektutor-getbalance-ws ---
+[INFO] Deleting /home/jegan/Training/bdd-hyd-jan2019/Day2/Bank/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tektutor-getbalance-ws ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/jegan/Training/bdd-hyd-jan2019/Day2/Bank/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ tektutor-getbalance-ws ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /home/jegan/Training/bdd-hyd-jan2019/Day2/Bank/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tektutor-getbalance-ws ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/jegan/Training/bdd-hyd-jan2019/Day2/Bank/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ tektutor-getbalance-ws ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /home/jegan/Training/bdd-hyd-jan2019/Day2/Bank/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tektutor-getbalance-ws ---
+[INFO] Surefire report directory: /home/jegan/Training/bdd-hyd-jan2019/Day2/Bank/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.tektutor.TestRunner
+UUUU
+Undefined scenarios:
+./src/test/java/org/tektutor/Bank.feature:3 # Should be able retrieve current balance
+
+1 Scenarios (1 undefined)
+4 Steps (4 undefined)
+0m0.103s
+
+
+You can implement missing steps with the snippets below:
+
+@Given("an account with account no {int} exits")
+public void an_account_with_account_no_exits(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@Given("the current balance is {string}")
+public void the_current_balance_is(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@When("I invoke getBalance API")
+public void i_invoke_getBalance_API() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+@Then("I should see {string} as the balance")
+public void i_should_see_as_the_balance(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.247 sec
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 4
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.799 s
+[INFO] Finished at: 2019-01-23T16:23:55+05:30
+[INFO] ------------------------------------------------------------------------
