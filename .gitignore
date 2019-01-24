@@ -1,0 +1,9 @@
+*.jar
+*.war
+*.class
+*.txt
+*.log
+target/**/*
+*.java.swp
+gradle/**/*
+build/**/*
